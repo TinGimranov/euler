@@ -1,3 +1,5 @@
+# Ответ 6_857
+
 limit = 600_851_475_143
 n = 2
 print(f"Старт: {n}")
@@ -11,7 +13,6 @@ def is_prime(_n):
 
 
 while n <= int(limit / 2):
-    print(f"Теккущее число {n}")
     if limit % n == 0:
         _d = limit / n
         print(f"Найденный делитель: {_d}")
